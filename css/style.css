@@ -368,35 +368,6 @@ a:hover {
     letter-spacing: 0.07px;
 }
 
-#back {
-    padding-bottom: 200px;
-    position: fixed;
-    bottom: -10%;
-    right: 20px;
-    /* z-index: 9999; */
-    text-align: center;
-    line-height: 30px;
-    background: transparent;
-    cursor: pointer;
-    border: 0;
-    transition: all 0.35s ease-in;
-    -webkit-transition: all 0.35s ease-in;
-    -moz-transition: all 0.35s ease-in;
-    -o-transition: all 0.35s ease-in;
-    -ms-transition: all 0.35s ease-in;
-    opacity: 0;
-    visibility: hidden;
-}
-
-#back.show :hover {
-    opacity: 0.8;
-}
-
-#back.show {
-    opacity: 1;
-    visibility: visible;
-    bottom: 2%;
-}
 
 #content {
     height: 2000px;
@@ -3325,7 +3296,7 @@ a:hover {
 }
 
 @media (max-width: 767px) {
-    #back img{
+    #fixed-component img{
         width: 250px;
     }
     .sclub_header_wrapper .search_header i {
@@ -3521,7 +3492,7 @@ a:hover {
         /* width: 100px !important;  */
         /* adjust as needed */
       }
-      #back img{
+      #fixed-component img{
         width: 220px;
     }
 
@@ -3559,12 +3530,15 @@ a:hover {
         width: 100px ; 
         /* adjust as needed */
       }
-    #back img{
+    #fixed-component img{
         width: 180px;
     }
     .wce{
         font-size: 12px;
     }
+    /* .img-responsive{
+        width: 100px;
+    } */
 }
 
 .special{
