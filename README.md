@@ -1,1 +1,1 @@
-# Sports-Club-Website-Template
+# Sports-Club-Website
